@@ -6,7 +6,7 @@ import com.testandospring.course.entities.Category;
 import com.testandospring.course.entities.Order;
 import com.testandospring.course.entities.User;
 
-public interface UserRepository extends  JpaRepository<User,Long>{
+public interface CategoryRepository extends  JpaRepository<Category,Long>{
 
 	
 }
